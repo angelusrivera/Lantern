@@ -9,7 +9,7 @@ flowchart LR
     Poller --> History[(SQLite history)]
     Log[Web server access log] --> Agent[Lantern agent]
     Counters[Host interface counters] --> Agent
-    Agent -->|Bearer token| Ingest[/api/ingest]
+    Agent -->|Bearer token| Ingest["/api/ingest"]
     Ingest --> Requests[Recent requests]
     Ingest --> Traffic[Interface rates]
     Current --> Events[Live event stream]
