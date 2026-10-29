@@ -1,0 +1,10 @@
+{
+  "poll_interval_seconds": 1,
+  "timeout_seconds": 2,
+  "history_retention_days": 30,
+  "availability_threshold_percent": 95,
+  "latency_threshold_ms": 1000,
+  "targets": [
+    {"name": "Lantern dashboard", "host": "127.0.0.1", "ports": [8080]}
+  ]
+}

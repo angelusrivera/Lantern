@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+config.json
+.env
+demo-access.jsonl
+lantern.db
+lantern.db-shm
+lantern.db-wal
+.pytest_cache/
